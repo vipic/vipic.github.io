@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Checksum: lQfuxAUtUBAb67YwgwpOrw
 ! Version: 202001051201
-! Title: EasyList China+EasyList
+! Title: TMD list p
 ! Last modified: 05 Jan 2020 12:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
@@ -17,4 +17,4 @@
 ! or via e-mail (easylist.china@gmail.com).
 !
 !-----------------------General advert blocking filters-----------------------!
-bilibili.com##.rank-item:-abp-has(.data-box:-abp-contains('央视新闻'))
+bilibili.com##.rank-item:-abp-has(.content > .info > .detail span.data-box:-abp-contains('央视新闻'))
