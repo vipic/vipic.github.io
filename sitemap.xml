@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://122.51.117.98/posts/my-first-post/</loc>
+    <loc>https://blog.vipic.tech/posts/my-first-post/</loc>
     <lastmod>2023-11-06T16:44:32+08:00</lastmod>
   </url><url>
-    <loc>http://122.51.117.98/</loc>
+    <loc>https://blog.vipic.tech/</loc>
     <lastmod>2023-11-06T16:44:32+08:00</lastmod>
   </url><url>
-    <loc>http://122.51.117.98/posts/</loc>
+    <loc>https://blog.vipic.tech/posts/</loc>
     <lastmod>2023-11-06T16:44:32+08:00</lastmod>
   </url><url>
-    <loc>http://122.51.117.98/categories/</loc>
+    <loc>https://blog.vipic.tech/categories/</loc>
   </url><url>
-    <loc>http://122.51.117.98/tags/</loc>
+    <loc>https://blog.vipic.tech/tags/</loc>
   </url>
 </urlset>
