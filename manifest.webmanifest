@@ -1,7 +1,7 @@
 {
-	"name": "Astro Theme Cactus Demo",
-	"short_name": "Astro_Cactus",
-	"description": "Starter blog site for Astro",
+	"name": "Mason's website",
+	"short_name": "A blog",
+	"description": "This is a blog records something",
 	"icons": [
 		{
 			"src": "/192x192.png",
@@ -15,7 +15,6 @@
 		}
 	],
 	"start_url": "/",
-	"background_color": "#1d1f21",
 	"theme_color": "#2bbc8a",
 	"display": "standalone"
 }
