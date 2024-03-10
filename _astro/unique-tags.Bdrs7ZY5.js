@@ -1,4 +1,4 @@
-import{c as o,r as s,m as n}from"./render-template.CAq0-iTr.js";import{u as r}from"./hoisted.c2cqiXQX.js";import"./astro/assets-service.DcMRmNXG.js";const e=`<h2 id="this-post-is-to-test-zod-transform">This post is to test zod transform</h2>
+import{c as o,r as s,m as n}from"./render-template.BPP3MIM5.js";import{u as r}from"./hoisted.18HnhlLJ.js";import"./astro/assets-service.DcMRmNXG.js";const e=`<h2 id="this-post-is-to-test-zod-transform">This post is to test zod transform</h2>
 <p>If you open the file <code>src/content/post/unique-tags.md</code>, the tags array has a number of duplicate blog strings of various cases.</p>
 <p>These are removed as part of the removeDupsAndLowercase function found in <code>src/content/config.ts</code>.</p>`,a={title:"Unique tags validation",publishDate:"30 January 2023",description:"This post is used for validating if duplicate tags are removed, regardless of the string case",tags:["blog","blog","Blog","test","bloG","Test","BLOG"],draft:!0,minutesRead:"1 min read"},i="/home/runner/work/blog/blog/src/content/post/unique-tags.md",u=void 0;function h(){return`
 ## This post is to test zod transform
