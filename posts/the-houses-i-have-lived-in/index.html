@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="en-GB"> <head><meta charset="utf-8"> <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport"> <meta content="IE=edge" http-equiv="X-UA-Compatible"> <title>我居住过的房子 • 简单的博客</title>  <link href="/favicon.ico" rel="icon" sizes="any"> <link href="/icon.svg" rel="icon" type="image/svg+xml"> <link href="/apple-touch-icon.png" rel="apple-touch-icon"> <link href="/manifest.webmanifest" rel="manifest"> <link href="https://vipic.github.io/posts/the-houses-i-have-lived-in/" rel="canonical">  <meta content="我居住过的房子 • 简单的博客" name="title"> <meta content="在上海生活的十年，我住过很多的房子，房子有大有小，也住过租金是第一份工作四倍的房子，他们都是在对应时期做的最佳选择，现在回想一一列出还挺有意思" name="description"> <meta content="喜嘉丽" name="author">  <meta content="" name="theme-color">  <meta content="article" property="og:type"> <meta content="我居住过的房子" property="og:title"> <meta content="在上海生活的十年，我住过很多的房子，房子有大有小，也住过租金是第一份工作四倍的房子，他们都是在对应时期做的最佳选择，现在回想一一列出还挺有意思" property="og:description"> <meta content="https://vipic.github.io/posts/the-houses-i-have-lived-in/" property="og:url"> <meta content="简单的博客" property="og:site_name"> <meta content="en_GB" property="og:locale"> <meta content="https://vipic.github.io/og-image/the-houses-i-have-lived-in.png" property="og:image"> <meta content="1200" property="og:image:width"> <meta content="630" property="og:image:height">  <meta content="喜嘉丽" property="article:author"> <meta content="2024-03-13T00:00:00.000Z" property="article:published_time">   <meta content="summary_large_image" property="twitter:card"> <meta content="https://vipic.github.io/posts/the-houses-i-have-lived-in/" property="twitter:url"> <meta content="我居住过的房子" property="twitter:title"> <meta content="在上海生活的十年，我住过很多的房子，房子有大有小，也住过租金是第一份工作四倍的房子，他们都是在对应时期做的最佳选择，现在回想一一列出还挺有意思" property="twitter:description"> <meta content="https://vipic.github.io/og-image/the-houses-i-have-lived-in.png" property="twitter:image">  <link href="/sitemap-index.xml" rel="sitemap">  <link href="/rss.xml" rel="alternate" title="简单的博客" type="application/rss+xml">   <link href="https://webmention.io/TO-DO/webmention" rel="webmention">  <meta content="Astro v4.2.4" name="generator"><link rel="stylesheet" href="/_astro/_slug_.SyH1Mkj2.css" /><script type="module" src="/_astro/hoisted.D73ce2SJ.js"></script>
+<script type="module" src="/_astro/page.55INgWwS.js"></script></head> <body> <script>
+	const lightModePref = window.matchMedia('(prefers-color-scheme: light)');
+
+	function getUserPref() {
+		const storedTheme = typeof localStorage !== 'undefined' && localStorage.getItem('theme');
+		return storedTheme || (lightModePref.matches ? 'light' : 'dark');
+	}
+
+	function setTheme(newTheme) {
+		if (newTheme !== 'light' && newTheme !== 'dark') {
+			return console.warn(
+				`Invalid theme value '${newTheme}' received. Expected 'light' or 'dark'.`,
+			);
+		}
+
+		const root = document.documentElement;
+
+		// root already set to newTheme, exit early
+		if (newTheme === root.getAttribute('data-theme')) {
+			return;
+		}
+
+		root.setAttribute('data-theme', newTheme);
+
+		const colorThemeMetaTag = document.querySelector("meta[name='theme-color']");
+		const bgColour = getComputedStyle(document.body).getPropertyValue('--theme-bg');
+		colorThemeMetaTag.setAttribute('content', `hsl(${bgColour})`);
+		if (typeof localStorage !== 'undefined') {
+			localStorage.setItem('theme', newTheme);
+		}
+	}
+
+	// initial setup
+	setTheme(getUserPref());
+
+	// View Transitions hook to restore theme
+	document.addEventListener('astro:after-swap', () => setTheme(getUserPref()));
+
+	// listen for theme-change custom event, fired in src/components/ThemeToggle.astro
+	document.addEventListener('theme-change', (e) => {
+		setTheme(e.detail.theme);
+	});
+
+	// listen for prefers-color-scheme change.
+	lightModePref.addEventListener('change', (e) => setTheme(e.matches ? 'light' : 'dark'));
+</script> <a class="sr-only focus:not-sr-only focus:fixed focus:start-1 focus:top-1.5" href="#main">skip to content
+</a> <header class="group relative mb-28 flex items-center sm:ps-[4.5rem]" id="main-header"> <div class="flex sm:flex-col"> <a class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block" href="/"> <svg aria-hidden="true" class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12" fill="none" focusable="false" viewBox="0 0 272 480" xmlns="http://www.w3.org/2000/svg"> <title>Logo</title> <path d="M181.334 93.333v-40L226.667 80v40l-45.333-26.667ZM136.001 53.333 90.667 26.667v426.666L136.001 480V53.333Z" fill="#B04304"></path> <path d="m136.001 119.944 45.333-26.667 45.333 26.667-45.333 26.667-45.333-26.667ZM90.667 26.667 136.001 0l45.333 26.667-45.333 26.666-45.334-26.666ZM181.334 53.277l45.333-26.666L272 53.277l-45.333 26.667-45.333-26.667ZM0 213.277l45.333-26.667 45.334 26.667-45.334 26.667L0 213.277ZM136 239.944l-45.333-26.667v53.333L136 239.944Z" fill="#FF5D01"></path> <path d="m136 53.333 45.333-26.666v120L226.667 120V80L272 53.333V160l-90.667 53.333v240L136 480V306.667L45.334 360V240l45.333-26.667v53.334L136 240V53.333Z" fill="#53C68C"></path> <path d="M45.334 240 0 213.334v120L45.334 360V240Z" fill="#B04304"></path> </svg> <span class="text-xl font-bold sm:text-2xl">简单的博客</span> </a> <nav aria-label="Main menu" class="absolute -inset-x-4 top-14 hidden flex-col items-end gap-y-4 rounded-md bg-bgColor/[.85] py-4 text-accent shadow backdrop-blur group-[.menu-open]:z-50 group-[.menu-open]:flex sm:static sm:z-auto sm:-ms-4 sm:mt-1 sm:flex sm:flex-row sm:items-center sm:divide-x sm:divide-dashed sm:divide-accent sm:rounded-none sm:bg-transparent sm:py-0 sm:shadow-none sm:backdrop-blur-none" id="navigation-menu"> <a class="px-4 py-4 sm:py-0 sm:hover:underline" data-astro-prefetch href="/"> 首页 </a><a class="px-4 py-4 sm:py-0 sm:hover:underline" data-astro-prefetch href="/posts/"> 文章 </a> </nav> </div> <site-search class="ms-auto" id="search" data-astro-cid-otpdt6jm> <button class="flex h-9 w-9 items-center justify-center rounded-md ring-zinc-400 transition-all hover:ring-2" data-open-modal disabled data-astro-cid-otpdt6jm> <svg aria-label="Search" class="h-7 w-7" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg" data-astro-cid-otpdt6jm> <path d="M0 0h24v24H0z" stroke="none" data-astro-cid-otpdt6jm></path> <path d="M3 10a7 7 0 1 0 14 0 7 7 0 1 0-14 0M21 21l-6-6" data-astro-cid-otpdt6jm></path> </svg> </button> <dialog aria-label="Search" class="h-full max-h-full w-full max-w-full border border-zinc-400 bg-bgColor shadow backdrop:backdrop-blur sm:mx-auto sm:mb-auto sm:mt-16 sm:h-max sm:max-h-[calc(100%-8rem)] sm:min-h-[15rem] sm:w-5/6 sm:max-w-[48rem] sm:rounded-md" data-astro-cid-otpdt6jm> <div class="dialog-frame flex flex-col gap-4 p-6 pt-12 sm:pt-6" data-astro-cid-otpdt6jm> <button class="ms-auto cursor-pointer rounded-md bg-zinc-200 p-2 font-semibold dark:bg-zinc-700" data-close-modal data-astro-cid-otpdt6jm>关闭</button> <div class="search-container" data-astro-cid-otpdt6jm> <div id="cactus__search" data-astro-cid-otpdt6jm></div> </div> </div> </dialog> </site-search>    <theme-toggle class="ms-2 sm:ms-4"> <button class="relative h-9 w-9 rounded-md p-2 ring-zinc-400 transition-all hover:ring-2" type="button"> <span class="sr-only">Dark Theme</span> <svg aria-hidden="true" class="absolute start-1/2 top-1/2 h-7 w-7 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100 transition-all dark:scale-0 dark:opacity-0" fill="none" focusable="false" id="sun-svg" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M22 12L23 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 2V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 23V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M20 20L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M20 4L19 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M4 20L5 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M4 4L5 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M1 12L2 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> </svg> <svg aria-hidden="true" class="absolute start-1/2 top-1/2 h-7 w-7 -translate-x-1/2 -translate-y-1/2 scale-0 opacity-0 transition-all dark:scale-100 dark:opacity-100" fill="none" focusable="false" id="moon-svg" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0h24v24H0z" fill="none" stroke="none"></path> <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path> <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2"></path> <path d="M19 11h2m-1 -1v2"></path> </svg> </button> </theme-toggle>  <mobile-button> <button aria-expanded="false" aria-haspopup="menu" aria-label="Open main menu" class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden" id="toggle-navigation-menu" type="button"> <svg aria-hidden="true" class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0" fill="none" focusable="false" id="line-svg" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> <svg aria-hidden="true" class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 text-accent opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100" class="text-accent" fill="none" focusable="false" id="cross-svg" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> </mobile-button> </header>  <main id="main">  <div class="gap-x-10 lg:flex lg:items-start"> <aside class="sticky top-20 order-2 -me-32 hidden basis-64 lg:block"> <h2 class="font-semibold">Table of Contents</h2> <ul class="mt-4 text-xs"> <li class=""> <a aria-label="Scroll to section: 第一个房子" class="block line-clamp-2 hover:text-accent mt-3" href="#第一个房子"><span class="me-0.5">#</span>第一个房子</a>  </li><li class=""> <a aria-label="Scroll to section: 第二个房子" class="block line-clamp-2 hover:text-accent mt-3" href="#第二个房子"><span class="me-0.5">#</span>第二个房子</a>  </li><li class=""> <a aria-label="Scroll to section: 第三个房子" class="block line-clamp-2 hover:text-accent mt-3" href="#第三个房子"><span class="me-0.5">#</span>第三个房子</a>  </li><li class=""> <a aria-label="Scroll to section: 第四个房子" class="block line-clamp-2 hover:text-accent mt-3" href="#第四个房子"><span class="me-0.5">#</span>第四个房子</a>  </li><li class=""> <a aria-label="Scroll to section: 第五个房子" class="block line-clamp-2 hover:text-accent mt-3" href="#第五个房子"><span class="me-0.5">#</span>第五个房子</a>  </li><li class=""> <a aria-label="Scroll to section: 第六个房子" class="block line-clamp-2 hover:text-accent mt-3" href="#第六个房子"><span class="me-0.5">#</span>第六个房子</a>  </li><li class=""> <a aria-label="Scroll to section: 第七个房子" class="block line-clamp-2 hover:text-accent mt-3" href="#第七个房子"><span class="me-0.5">#</span>第七个房子</a>  </li><li class=""> <a aria-label="Scroll to section: 第八个房子和接下来的房子" class="block line-clamp-2 hover:text-accent mt-3" href="#第八个房子和接下来的房子"><span class="me-0.5">#</span>第八个房子和接下来的房子</a>  </li> </ul> </aside> <article class="flex-grow break-words" data-pagefind-body> <div id="blog-hero"><h1 class="title mb-3 sm:mb-1"> 我居住过的房子 </h1> <div class="flex flex-wrap items-center gap-x-3 gap-y-2"> <p class="font-semibold"> <time datetime="2024-03-13T00:00:00.000Z"> 13 March 2024 </time> /  12 min read </p>  </div> <div class="mt-3"> <svg aria-hidden="true" class="me-1 inline-block h-6 w-6" fill="none" focusable="false" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0h24v24H0z" fill="none" stroke="none"></path> <path d="M7.859 6h-2.834a2.025 2.025 0 0 0 -2.025 2.025v2.834c0 .537 .213 1.052 .593 1.432l6.116 6.116a2.025 2.025 0 0 0 2.864 0l2.834 -2.834a2.025 2.025 0 0 0 0 -2.864l-6.117 -6.116a2.025 2.025 0 0 0 -1.431 -.593z"></path> <path d="M17.573 18.407l2.834 -2.834a2.025 2.025 0 0 0 0 -2.864l-7.117 -7.116"></path> <path d="M6 9h-.01"></path> </svg>  <a aria-label="View more blogs with the tag 生活" class="cactus-link inline-block before:content-['#']" data-pagefind-filter="tag" href="/tags/生活/"> 生活 </a>  </div></div> <div class="prose prose-sm prose-cactus mt-12 prose-headings:font-semibold prose-headings:text-accent-2  prose-headings:before:text-accent prose-headings:before:content-[' '] prose-headings:before:bg-accent prose-headings:before:mt-1 prose-headings:before:w-1.5 prose-headings:before:h-5  prose-headings:before:absolute prose-headings:before:-ms-4 prose-th:before:content-none">  <p>不知不觉在陌生的城市已经生活 10 年了。最近将住房卖出了，也想理一理这些过去的记忆。</p>
+<h2 id="第一个房子">第一个房子</h2>
+<blockquote>
+<p>免费住了半年，像大学宿舍一样。</p>
+</blockquote>
+<p>这是毕业后来到陌生城市的第一个房子，也是公司统一安排并且支付了半年的租金。给首次来到陌生的城市的人一个平滑的过渡。</p>
+<p>离公司很近，走路 10 分钟就到了，但是距离商业区远，出去玩还要公交转地铁。听说这里是一个商业场所改造成的公寓，所以水电计算按照商业计费，比较贵一点。一个房间能住 2-3 个人，有桌子有床和大学宿舍一样。公司提供三餐，这个时候生活还是很简单的，每天上班下班，周末出去玩。</p>
+<p>类群居的生活有点像大学宿舍，时不时就可以来个串门，假如室友是交际花，那么被动的就没有隐私，我也不是很喜欢突如其来的造访。出于这个考虑，一年后和同事合租搬出去了。</p>
+<h2 id="第二个房子">第二个房子</h2>
+<blockquote>
+<p>签订了住房合同，提前终止没有拿回押金。</p>
+</blockquote>
+<p>这个房子在热闹一点的地方，回归了民用水电，楼下小吃丰富，出门就是地铁，走几步就是商业街，比之前方便了不少。在这个时候我还买了一个第一个家居 - 人体工学椅，算是追求生活质量的第一个投入。</p>
+<p>室友住了半年搬走了，我在搬走前也找到了下一个住处。合同写的有变化提前一个月沟通可以退回押金，按照这个约定，在退房的时候三方一起来终止合同。房东不愿意退回押金，加上我的下一个房子可能有地方要咨询她，即便中介在和房东沟通，我还是和房东达成一致，押金就半推半就象征性的退了一点点。</p>
+<p>小区排水不好，下大雨的时候水可以漫过鞋面，房子里面有北方人没见过的超大蟑螂，我怕它们胜过它们怕我。室友走了我也无法独自承担这个成本，于是搬家到了新公司附近。</p>
+<h2 id="第三个房子">第三个房子</h2>
+<blockquote>
+<p>没有签订租房合同，提前终止还拿回了押金。</p>
+</blockquote>
+<p>这次搬到了陆家嘴的城中村。和第一个住房一样，走路上下班，不同的是以前是郊区，现在是市中心，纵使房子缺点多多，依然是满心欢喜。</p>
+<p>我的室友是二房东他和房东第一次租房合同到期后就没再签合同，继续保持了租房关系，所以我自然也看不到他的租房合同，无法确认租房的状态。同时我是通过同城交流的社区找到的对方，也没有中介帮我们起草一份正式的合同。所以，这次的租住关系，是没有合同保障的。只有一个手写的收据，也不知道是否有法律效力。</p>
+<p>在上一个房子搬出来的时候，和房东咨询的就是这件事，她是一个律师，说这样我的权益得不到保障。我还是从人性上面考虑，通过二房东很有限的行为推断今后的可能性，还是搬了进去。</p>
+<p>白天走路上下班，城中村也有便宜的三餐，晚上还可以去黄浦江边跑步，幸福感稳步提升。但是房间，只有一个床的位置，之前的人体工学椅就卖掉了。</p>
+<p>新老板约定的周期提高待遇没有兑现，也由于原本可以看书的通勤时间改成短途步行，可支配时间变多了，但我没有投入到学习中，感觉自己成长变慢了，这时候决定强化一下技能。就辞职回老家脱产半年。</p>
+<h2 id="第四个房子">第四个房子</h2>
+<blockquote>
+<p>免费的房子</p>
+</blockquote>
+<p>这是两个大学室友合租的房子。其中一个人在刚来上海的时候在我的第二个住处生活过一段时间，这次回到上海没有直接找房子，而是在他那住了三个多月。</p>
+<p>他们租的两室一厅，还养了一只猫。在这个房子里很快找到了脱产回来的第一份工作，但是不是特别理想，所以这个工作 1 个月后通过技术分享会找到了下一份也是目前工作最久的工作。</p>
+<p>更换了新工作后不想再给同学添麻烦，搬出来了这个三人一猫的小窝。</p>
+<h2 id="第五个房子">第五个房子</h2>
+<blockquote>
+<p>近到可以中午回家睡觉</p>
+</blockquote>
+<p>这个房子比陆家嘴的房间要大一些，有了床也有了桌子，一样的距离公司超近。生活质量进一步提高，当年戴森推出 v6 型号的吸尘器，比我的房租还贵，我用它来打扫这个房子。</p>
+<p>这个房子给我带来很多便利，合租室友是高中老师，有时候会带学生回家来补课。看着门外或站着或坐着的本地人对我礼貌的问好。像是借了室友的光，也得到了陌生人的善待，感觉非常舒服。</p>
+<p>离开这里是因为恋爱了，搬到了恋人那里。这样至少能节省一份房租了。</p>
+<h2 id="第六个房子">第六个房子</h2>
+<blockquote>
+<p>剧组到小区取景</p>
+</blockquote>
+<p>我们在一个公司上班，这个房子距离公司也挺近的，可以骑自行车上下班。在核心商圈附近，周末看电影吃饭十分舒服。能远远的看到公司 LOGO，近近的看楼下有人打网球。</p>
+<p>小区很好，物业很好，邻居谁知道好不好呢，两个在陌生城市生活人，很少会关心邻里关系。有一年过年，我们准备年夜饭竟然花了三个小时，属于前一个菜都冷了，后一个还没出锅。我们的关系很快到了谈婚论嫁的地步。</p>
+<p>后来考虑结婚的事情，这个房租实在是高到影响首付的积累速度了，果断搬家。</p>
+<h2 id="第七个房子">第七个房子</h2>
+<blockquote>
+<p>公租房，梦回第一个房子</p>
+</blockquote>
+<p>公租房听起来好像比普通房子便宜，实际上价格也没有差太多，并且名额还是跟着公司走的。所以邻居要么是同事，要么是其他公司的和我们有类似经历的人。</p>
+<p>这回还是满足了可以随便串门的距离，但是大家都不是刚毕业的年轻人，都保持的默契的距离感。在公租房里办理好了居住证，也空下来考了驾照，还买了房子，甚至备孕成功。</p>
+<p>接下来搬走了，住进了属于自己的房子。</p>
+<h2 id="第八个房子和接下来的房子">第八个房子和接下来的房子</h2>
+<blockquote>
+<p>空手买房</p>
+</blockquote>
+<p>在公租房阶段，有个同事房子卖掉手里有很多现金，我们按照市场的利息借过来两个月把房子买了。我们没有依靠家里人，用一个很离奇的方式，在首付远远没有攒够的情况下，搞定了这里的房子。</p>
+<p>实际上首付后续还款阶段还是很痛苦的，既有房贷的压力，还要把处理各个途径贷款的钱。计算过后大概需要 5 年才能减轻还款压力。然而这个房子没住满 5 年，我们就又搬走了。</p>
+<p>工作和打拼这么久，已经对传统和商业社会的观念多少免疫了。我们的父辈包括我们都以为房子是归属，最近几十年房价的变化更是让人以为房子是稳赚不赔的资产，如果买了房子没有升值，那这个房子还是你期待的房子吗。好在我们俩也有了这样的认识，<strong>房子确实重要，但不是一切</strong>。在房价高涨的时候，它是资产，买入升值变现。房价跌的时候，没有了资产给人带来的升值的快感。不禁会想，这个房子给我们足够的舒适度了么，给我们足够的便利了么。如果真是带来了不便，需要牺牲什么可以接受它。</p>
+<p>就在房价下跌的恐慌以及从今后小孩上学的便利性考虑，我们卖掉了这个房子，租在了幼儿园隔壁。小朋友真是一个既可爱又恐怖的东西，每天早上折腾半小时是常有的事，幸亏我们搬家到了附近，上学的距离近到我们可以容忍这半小时的玩闹。同时这个房子距离市中心更近了，我们上下班也都更方便了，那么一个固定资产带来的安全感和每天都要经历的幸福感，哪个更轻哪个更重。</p>
+<p>以上就是我的经历和一点浅薄的见解，如果恰好你看到了这里并且想要一起探讨的话，欢迎在首页使用邮件联系。</p>   </div> </article> </div> <button aria-label="Back to Top" class="z-90 fixed bottom-8 end-4 flex h-10 w-10 translate-y-28 items-center justify-center rounded-full border-2 border-transparent bg-zinc-200 text-3xl opacity-0 transition-all duration-300 hover:border-zinc-400 data-[show=true]:translate-y-0 data-[show=true]:opacity-100 dark:bg-zinc-700 sm:end-8 sm:h-12 sm:w-12" data-show="false" id="to-top-btn"><svg aria-hidden="true" class="h-6 w-6" fill="none" focusable="false" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M4.5 15.75l7.5-7.5 7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button>  </main> <footer class="mt-auto flex w-full flex-col items-center justify-center gap-y-2 pb-4 pt-20 text-center align-top font-semibold text-gray-600 dark:text-gray-400 sm:flex-row sm:justify-between sm:text-xs"> <div class="me-0 sm:me-4">
+&copy; 喜嘉丽 2024.<span class="inline-block">&nbsp;🚀&nbsp;Astro Cactus</span> </div> <nav aria-label="More on this site" class="flex gap-x-2 sm:gap-x-0 sm:divide-x sm:divide-gray-500"> <a class="px-4 py-2 sm:py-0 sm:hover:text-textColor sm:hover:underline" href="/"> 首页 </a><a class="px-4 py-2 sm:py-0 sm:hover:text-textColor sm:hover:underline" href="/posts/"> 文章 </a> </nav> </footer> </body></html> 
