@@ -30,8 +30,8 @@ adb install [**.apk] # 安装 apk，确保输入的是正确的 apk 路径
 \`\`\`
 
 安装命令执行完过一会应用就安装好了，一般不会出现问题，如果使用中遇到问题，可以谷歌查找 adb 相关命令来帮助排查。
-`,s={title:"通过adb给电视安装任意应用",description:"很多电视都不给用户安装预装的应用市场外的应用，而且这个应用市场内的应用数量稀少无法满足用户的需要。通过一点开发技巧可以实现安装任意apk",publishDate:new Date(17103744e5),draft:!1,tags:["生活","技巧"]},l={type:"content",filePath:"/home/runner/work/blog/blog/src/content/post/tv-skill.md",rawData:`
+`,s={title:"通过adb给电视安装任意应用",description:"很多电视都不给用户安自由安装任意应用的入口，并且自带应用商店能够安装的应用数量有限。通过本文提到的手段(adb)可以应对大部分安卓电视",publishDate:new Date(17103744e5),draft:!1,tags:["生活","技巧"]},l={type:"content",filePath:"/home/runner/work/blog/blog/src/content/post/tv-skill.md",rawData:`
 title: "通过adb给电视安装任意应用"
 publishDate: "14 Mar 2024"
-description: "很多电视都不给用户安装预装的应用市场外的应用，而且这个应用市场内的应用数量稀少无法满足用户的需要。通过一点开发技巧可以实现安装任意apk"
+description: "很多电视都不给用户安自由安装任意应用的入口，并且自带应用商店能够安装的应用数量有限。通过本文提到的手段(adb)可以应对大部分安卓电视"
 tags: ["生活", "技巧"]`};export{l as _internal,e as body,t as collection,s as data,n as id,a as slug};
