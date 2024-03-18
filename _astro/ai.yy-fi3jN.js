@@ -1,4 +1,4 @@
-import{c as e,r as o,m as r}from"./render-template.BjMBUGWY.js";import{u as p}from"./hoisted.n1NUkgfZ.js";import"./astro/assets-service.DcMRmNXG.js";const t=`<p>有了 AI 之后，区分是非黑白变得更难了。</p>
+import{c as e,r as o,m as r}from"./render-template.CatOgz1d.js";import{u as p}from"./hoisted.lDBJEorn.js";import"./astro/assets-service.DcMRmNXG.js";const t=`<p>有了 AI 之后，区分是非黑白变得更难了。</p>
 <p>在 chatGPT 推出之前，劣质的文章一眼就能看出来，要么是机器抓取排版非常的差，要么是小编类文体，结尾都是你怎么看呢。可以说基本不用费精力就能区分，然后自然也不用浪费时间继续阅读。</p>
 <p>但 GPT 之后，这类虚假的创作变得更隐晦了。想要区分是否事实或者是否准确就要仰仗阅读人的知识结构。我可以在我熟悉的领域通过我过往的经验来区分 AI 提供的信息是否准确，以及我们互相配合经过我的修剪可以让最终的产物变得准确。但是更多的人是将 AI 的产物直接输出，甚至批量制造。大多数人看到这样的东西，很难在短时间区分所看到的是否准确，也可能造成难以想象的后果。</p>
 <p>假如用我的生活经验写了一篇文章来分享，那么受我和读者不同身份和所处环境的影响，读者大抵可以判断出应用在自身是否合适。假如 AI 模拟一个身份，恰好和读者身份相符，那在不知道该文章由 AI 生成之前，读者可能会疑惑为什么他可以我不行，在多次尝试浪费足够多的时间之后才发现原来这个是一本正经的胡扯，根本没有参考性，那 AI 带来的就是直接的坏处，浪费了读者的时间。</p>
